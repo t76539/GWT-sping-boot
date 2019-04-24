@@ -1,0 +1,17 @@
+2019-04-24 12:23:43 [qtp1360609631-56] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'gwt-boot': initialization started 
+2019-04-24 12:23:43 [qtp1360609631-56] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'gwt-boot-servlet': startup date [Wed Apr 24 15:23:43 MSK 2019]; root of context hierarchy 
+2019-04-24 12:23:43 [qtp1360609631-56] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Successfully resolved class for [fr.ekito.gwt.server.ServerApplication] 
+2019-04-24 12:23:44 [qtp1360609631-56] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2019-04-24 12:23:45 [qtp1360609631-56] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'gwt-boot-servlet': startup date [Wed Apr 24 15:23:43 MSK 2019]; root of context hierarchy 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rest/todos],methods=[GET]}" onto public java.util.List<fr.ekito.gwt.common.Todo> fr.ekito.gwt.server.web.TodoController.all() 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[t2019-04-24 12:23:54 [main] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@43481353{HTTP/1.1}{127.0.0.1:8888} 
+2019-04-24 12:23:54 [main] INFO  / - Destroying Spring FrameworkServlet 'gwt-boot' 
+2019-04-24 12:23:54 [main] INFO  o.e.j.server.handler.ContextHandler - Stopped c.g.g.d.s.j.WebAppContextWithReload@7abd6741{/,file:/home/a-samodov/IdeaProjects/GWT-spring/csproj2/target/gwt-boot/,UNAVAILABLE}{/home/a-samodov/IdeaProjects/GWT-spring/csproj2/target/gwt-boot} 
+rController.error(javax.servlet.http.HttpServletRequest) 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2019-04-24 12:23:46 [qtp1360609631-56] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'gwt-boot': initialization completed in 3740 ms 
+2019-04-24 12:23:54 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'gwt-boot-servlet': startup date [Wed Apr 24 15:23:43 MSK 2019]; root of context hierarchy 
+2019-04-24 12:23:54 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
