@@ -1,10 +1,10 @@
-package fr.ekito.gwt.client;
+package ru.gp.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.*;
-import fr.ekito.gwt.client.restservices.TodoService;
-import fr.ekito.gwt.common.Todo;
+import ru.gp.client.restservices.TodoService;
+import ru.gp.common.Todo;
 import org.fusesource.restygwt.client.Method;
 import org.fusesource.restygwt.client.MethodCallback;
 

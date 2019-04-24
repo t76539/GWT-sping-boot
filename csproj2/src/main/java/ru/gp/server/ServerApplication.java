@@ -1,4 +1,4 @@
-package fr.ekito.gwt.server;
+package ru.gp.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import org.springframework.core.env.Environment;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan("fr.ekito.gwt.server")
+@ComponentScan("ru.gp.server")
 public class ServerApplication {
 
 	final static Logger logger = LoggerFactory.getLogger(ServerApplication.class);

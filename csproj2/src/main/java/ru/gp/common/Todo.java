@@ -1,4 +1,4 @@
-package fr.ekito.gwt.common;
+package ru.gp.common;
 
 import java.io.Serializable;
 

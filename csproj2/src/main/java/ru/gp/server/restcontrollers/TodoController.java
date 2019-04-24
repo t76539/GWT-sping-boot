@@ -1,4 +1,4 @@
-package fr.ekito.gwt.server.restcontrollers;
+package ru.gp.server.restcontrollers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.ekito.gwt.common.Todo;
+import ru.gp.common.Todo;
 
 @RestController
 @RequestMapping("/gwtwebapp/todos")
@@ -21,15 +21,17 @@ public class TodoController {
 	
 	List<Todo> todoList = new ArrayList<>();
 	
-	public TodoController(){
-		todoList.add(new Todo("Todo #1"));
-		todoList.add(new Todo("Todo #2"));
-		todoList.add(new Todo("Todo #3"));
+	public TodoController() {
+		logger.info("TodoController.TodoController()");
+		for (int i=0; i < 10; i++) {
+			todoList.add(new Todo("Todo #" + i));
+		}
 	}
 
 	@RequestMapping(method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public List<Todo> all() {
+		logger.info("TodoController.all()");
         return todoList;
     }
 }

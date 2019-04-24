@@ -1,4 +1,4 @@
-package fr.ekito.gwt.client.restservices;
+package ru.gp.client.restservices;
 
 import org.fusesource.restygwt.client.*;
 
@@ -6,7 +6,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
 import java.util.List;
-import fr.ekito.gwt.common.Todo;
+import ru.gp.common.Todo;
 
 @Path("/todos")
 public interface TodoService extends RestService {
