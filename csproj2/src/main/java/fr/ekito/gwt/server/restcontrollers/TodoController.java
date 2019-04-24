@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.ekito.gwt.common.Todo;
 
 @RestController
-@RequestMapping("/gwtwebapp/rest/todos")
+@RequestMapping("/gwtwebapp/todos")
 public class TodoController {
 	
 	final static Logger logger = LoggerFactory.getLogger(TodoController.class);
